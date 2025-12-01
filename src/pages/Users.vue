@@ -5,6 +5,10 @@
 </template>
 
 <script>
+import { db } from "../firebase";
+
+console.log("Firestore Ready:", db);
+
 export default {
   name: "UsersPage"
 };
